@@ -28,5 +28,8 @@
 		"typescript": "^5.0.0",
 		"vite": "^4.2.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"mvp.css": "^1.12.0"
+	}
 }
