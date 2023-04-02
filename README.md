@@ -24,6 +24,14 @@ You can preview the production build with `pnpm run preview`.
 > To deploy your app, you may need to install an [adapter][2] for your target environment.
 
 
+## References
+
+- [Gitmoji][3]
+- [MVP.css][4]
+
+
 [0]: https://en.wikipedia.org/wiki/High_Efficiency_Image_File_Format#HEIC:_HEVC_in_HEIF
 [1]: https://svelte.dev
 [2]: https://kit.svelte.dev/docs/adapters
+[3]: https://gitmoji.dev
+[4]: https://andybrewer.github.io/mvp
