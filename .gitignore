@@ -105,6 +105,7 @@ dist
 
 # Svelte
 .svelte-kit
+build
 
 # Vite
 vite.config.ts.timestamp-*
