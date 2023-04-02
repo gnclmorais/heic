@@ -4,7 +4,7 @@
 	"private": true,
 	"scripts": {
 		"dev": "vite dev --open",
-		"build": "vite build",
+		"build": "rm -Rf .svelte-kit && vite build",
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
@@ -13,7 +13,7 @@
 		"prepare": "svelte-kit sync"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/adapter-static": "^2.0.1",
 		"@sveltejs/kit": "^1.5.0",
 		"@typescript-eslint/eslint-plugin": "^5.45.0",
 		"@typescript-eslint/parser": "^5.45.0",
